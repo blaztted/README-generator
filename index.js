@@ -63,7 +63,7 @@ function writeToFile(fileName, data) {
     if (err) {
       return console.log(err);
     }
-    console.log(`Great, ${fileName} has been created`);
+    console.log(`Great, ${fileName} has been created!`);
   });
 }
 
