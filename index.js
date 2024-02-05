@@ -3,18 +3,6 @@ const path = require("path");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
-// array of questions for user
-// const questions = [
-//   {}
-
-//   "Usage information?",
-//   "Contribution Guidelines?",
-//   "Test instructions?",
-//   "Which license was used?",
-//   "Github username?",
-//   "E-mail?",
-// ];
-
 const questions = [
   {
     type: "input",
@@ -69,7 +57,15 @@ const questions = [
 console.log(questions[0]);
 
 // function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+  let markdown = generateMarkdown(data);
+  fs.writeFile(fileName, markdown, function (err) {
+    if (err) {
+      return console.log(err);
+    }
+    console.log(`Great, ${fileName} has been created`);
+  });
+}
 
 // function to initialize program
 function init() {}
