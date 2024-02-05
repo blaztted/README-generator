@@ -54,8 +54,6 @@ const questions = [
   },
 ];
 
-console.log(questions[0]);
-
 // function to write README file
 function writeToFile(fileName, data) {
   let markdown = generateMarkdown(data);
@@ -68,7 +66,12 @@ function writeToFile(fileName, data) {
 }
 
 // function to initialize program
-function init() {}
+function init() {
+  inquirer.prompt(questions).then(function (data) {
+    const fileName = "README.md";
+    writeToFile(fileName, data);
+  });
+}
 
 // function call to initialize program
 init();
