@@ -16,8 +16,8 @@ const questions = [
   },
   {
     type: "input",
-    message: "Any installation instructions for the user?",
-    name: "instructions",
+    message: "Which command is used for installing dependencies?",
+    name: "installation",
   },
   {
     type: "input",
