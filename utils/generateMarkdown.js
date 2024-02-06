@@ -21,7 +21,7 @@ function generateMarkdown(data) {
   To set up the necessary dependencies, execute the following command:
   * npm
 
-  ``${data.installation}``
+  **${data.installation}**
 
   ## USAGE
   ${data.usage}
