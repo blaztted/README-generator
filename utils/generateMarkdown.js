@@ -32,7 +32,6 @@ function generateMarkdown(data) {
   ${data.contribution}
 
   ## TESTS
-  Run the following command to perform tests:
   ${data.test}
 
   ## QUESTIONS
