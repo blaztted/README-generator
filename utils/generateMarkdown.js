@@ -19,9 +19,8 @@ function generateMarkdown(data) {
 
   ## INSTALLATION
   To set up the necessary dependencies, execute the following command:
-  * npm
+  * ${data.installation}
 
-  **${data.installation}**
 
   ## USAGE
   ${data.usage}
@@ -34,7 +33,7 @@ function generateMarkdown(data) {
 
   ## TESTS
   Run the following command to perform tests:
-  ${data.tests}
+  ${data.test}
 
   ## QUESTIONS
   Should you have any inquiries regarding this repository, feel free to raise an issue or reach out to me directly via [${data.email}](mailto:${data.email}). 

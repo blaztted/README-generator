@@ -17,9 +17,8 @@
 
   ## INSTALLATION
   To set up the necessary dependencies, execute the following command:
-  * npm
+  * npm i inquirer
 
-  **npm i inquirer**
 
   ## USAGE
   Answer to the prompts generated to compile a README file for your project.
@@ -32,7 +31,7 @@
 
   ## TESTS
   Run the following command to perform tests:
-  undefined
+  Testing functionality is not available at the moment.
 
   ## QUESTIONS
   Should you have any inquiries regarding this repository, feel free to raise an issue or reach out to me directly via [bbc.silva@gmail.com](mailto:bbc.silva@gmail.com). 
