@@ -1,7 +1,9 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
+  const inst = data.installation;
   return `# ${data.title}
 
+  
 
   [![License](https://img.shields.io/badge/License-${data.license}-brightgreen.svg)](LICENSE)
 
@@ -19,7 +21,7 @@ function generateMarkdown(data) {
   ## INSTALLATION
   To set up the necessary dependencies, execute the following command:
   * npm
-  ````${data.installation}````
+  **${data.installation}**
 
   ## USAGE
   ${data.usage}
