@@ -17,9 +17,7 @@
 
   ## INSTALLATION
   To set up the necessary dependencies, execute the following command:
-  * npm
-
-  **npm i inquirer**
+  * npm i inquirer
 
   ## USAGE
   Answer to the prompts generated to compile a README file for your project.
