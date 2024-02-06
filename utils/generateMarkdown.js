@@ -1,6 +1,5 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
-  const inst = data.installation;
   return `# ${data.title}
 
   
@@ -21,7 +20,8 @@ function generateMarkdown(data) {
   ## INSTALLATION
   To set up the necessary dependencies, execute the following command:
   * npm
-  **${data.installation}**
+
+  ``${data.installation}``
 
   ## USAGE
   ${data.usage}
